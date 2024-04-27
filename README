@@ -1,1 +1,13 @@
-es recomendable usar esta API KEY para poder hacer las conversiones de divisas " e63fcffba14a69175ef29c63 "
+Conversor de Monedas
+Este proyecto es un Conversor de Monedas que utiliza la Exchange Rate API para obtener tasas de cambio actualizadas. La API se autentica mediante una clave específica: “e63fcffba14a69175ef29c63”.
+
+Características
+Convierte entre diferentes monedas utilizando las tasas de cambio proporcionadas por la API.
+Utiliza la librería Gson 2.10.1 para analizar y manipular datos en formato JSON.
+Instrucciones de Uso
+Obtén una clave de acceso: Regístrate en la Exchange Rate API para obtener tu propia clave de acceso.
+Configura la clave: Reemplaza la clave actual en el código con la tuya.
+Realiza conversiones:
+Proporciona la cantidad y las monedas de origen y destino.
+El programa llamará a la API para obtener la tasa de cambio y realizará la conversión.
+Muestra el resultado al usuario.
